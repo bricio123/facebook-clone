@@ -1,5 +1,5 @@
 .post {
-  width: 100%;
+  width: 80%;
   display: flex;
   margin-top: 15px;
   border-radius: 15px;
@@ -28,7 +28,12 @@
   padding: 15px 25px;
 }
 .post__image > img {
-  width: 800px;
+ width: 100%;
+ display: flex;
+ align-items: center;
+justify-content: center;
+justify-self: center;
+justify-items: center;
 }
 .post__options {
   padding-top: 10px;
